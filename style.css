@@ -1,0 +1,31 @@
+/* Write your code here: */
+
+/* Group selector */
+/* selector,selector */
+h1,h2{
+    color: blueviolet;
+}
+
+/* Child selector...this only modifies one level deep. Not a grand child or great-grandchild */
+/* .class-tagParent_selector > child_selector */
+.box > p{
+    color:firebrick
+}
+
+/* Descendant Combination */
+/* .class-tagAncestor_selector Parent_selector*/
+.box li{
+    color: blue;
+}
+
+/* Chaining selectors */
+/* selector.class-tagselector*/
+li.done{
+    color:seagreen;
+}
+
+/*Combining combiners */
+/* Parent_selector child_selector.class-tag */
+ul p.done{
+    font-size: 0.5rem;
+}
